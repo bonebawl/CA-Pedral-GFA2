@@ -1,0 +1,44 @@
+div.aligner{
+    color:black;
+}
+h1{
+    font-size:40px
+}
+input{
+    display:inline-block;
+}
+button{
+    display:inline-block;
+}
+
+div.instructions{
+    height:50px;
+    display:none;
+}
+p#results{
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    border:3px solid black;
+}
+button#addition:hover ~ div#add{
+   display: block;  
+   color:green;
+}
+button#subtraction:hover ~ div#subtract{
+    display: block;
+    color:red;
+ }
+button#multiply:hover ~ div#product{
+    display: block;
+    color:blue;
+ }
+button#divide:hover ~ div#quotient{
+    display: block;
+    color:black;
+ }
+button#mod:hover ~ div#modd{
+    display: block;
+    color:orange;
+ }

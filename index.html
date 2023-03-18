@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcu</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="script.js"> 
+
+    </script>
+</head>
+<body>
+    <div class="aligner">
+        <h1>Calculator</h1>
+        <h2>Throwing you numbers in seconds!</h2>
+        <h2> Hover over the buttons to find out what they do!</h2>
+        <input type="text" class="inputNum" id="numberValue1">
+        <input type="text" class="inputNum" id="numberValue2">
+        <button type="button" id="addition" onclick="mainCalc('sum')">+</button>
+        <button type="button" id="subtraction" onclick="mainCalc('subtraction')">-</button>
+        <button type="button" id="multiply" onclick="mainCalc('product')">*</button>
+        <button type="button" id="divide" onclick="mainCalc('quotient')">/</button>
+        <button type="button" id="mod" onclick="mainCalc('mod')" >%</button>
+        <p id="results">Results will be displayed here!</p>
+        <div class="instructions" id="add">This button is for addition of number 1 and 2!</div>
+        <div class="instructions" id="subtract">This button is for subtraction of number 1 and 2</div>
+        <div class="instructions" id="product">This button is for multiplying number 1 with 2!</div>
+        <div class="instructions"id="quotient">This button divides number 1 by number 2</div>
+        <div class="instructions" id="modd">This button finds the modular of number1 by number2</div>
+    </div>
+</body>
+</html>
